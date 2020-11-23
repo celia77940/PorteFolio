@@ -1,0 +1,338 @@
+body{
+    margin: 0%;
+}
+
+/*EN TETE*/
+
+/*IMAGE DU FOND*/
+header{
+    background-image: url(image/rul.jpg);
+    min-height: 100%;;
+    background-size: cover;
+}
+
+/* PERMET DE METTRE TOUT LES MOTS A COTER ET CENTRER */
+nav ul {
+    margin: 0%;
+    display: flex;
+    padding-top: 3.5em;
+    justify-content: center; 
+}
+
+/* MENU*/
+nav ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-right: 2.5em;
+    list-style: none;
+}
+
+/* PERMET DE METTRE LA COULEUR BLANCHE SUR LE TEXTE */
+nav ul li a {
+   color: white;
+   text-shadow: 0em 0.05em 0.1rem rgba(0,0,0,0.4);
+}
+
+/* TITRE */
+h1{
+    text-align: center;
+    font-size: 92px;
+    line-height: 0.6em;
+    text-shadow: 0em 0.05em 0.1rem rgba(0,0,0,0.4);
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
+/* BIENVENUE SUR MON/ POLICE COULEUR */
+.bien{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+
+/* MON SITE INTERNET/ POLICE COULEUR */
+.site{
+    font-family: 'Parisienne', cursive; 
+    color:rgb(255,140,0);   
+}
+
+/* PREMIERE PAGE */
+
+/* DISPLAY DES TROIS BLOCS */
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*BORDURE DES CARD */
+.card{
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px
+}
+
+/* BORDURE DES IMAGES */
+.card img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* TITRE PRODUIT IMPRIMEE*/
+.theme1{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+    font-family: 'Parisienne', cursive; 
+    color:rgb(210,70,24);
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+
+/* TITRE SITE INTERNET */
+.theme2{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+    font-family: 'Parisienne', cursive; 
+    color:rgb(35,72,170);
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+
+/* TITRE PHOTOGRAPHIE */
+.theme3{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+    font-family: 'Parisienne', cursive; 
+    color:rgb(110,50,176);
+    font-size: 2rem;
+    font-weight: 800;}
+
+/* DEUXIEME PAGE */
+
+/* COULEUR DU TITRE PRINCIPAL QUI CHANGE */
+.site1{
+    font-family: 'Parisienne', cursive; 
+    color:rgb(223, 238, 22);   
+}
+
+.experience{
+    background-image: url(image/barre.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rectangle{
+    display:flex;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.etude{
+    text-align: right;
+}
+
+.date{
+    text-decoration: underline;
+    color: rgb(110, 50, 176);
+}
+
+
+.date p{
+    font-family: 'Parisienne', cursive;
+    font-size: 1.6em; 
+    color: rgb(110, 50, 176);}
+
+.forma{
+    font-size: 1.2em;
+    color: rgb(210, 70, 24);
+}
+
+.format{
+    font-size: 1,1em;
+}
+
+.resume{
+    font-size: 1rem;
+}
+
+.logo{
+    padding-left: 3.7em;
+}
+
+.logo1{
+    padding-left: 37.5em;
+    padding-right: 3em;;
+}
+
+.date1 p{
+    font-family: 'Parisienne', cursive; 
+    color: rgb(110, 50, 176);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TROISIEME PAGE */
+
+/* COULEUR DU TITRE PRINCIPAL QUI CHANGE */
+.site2{
+    font-family: 'Parisienne', cursive; 
+    color:rgb(210,70,24);   
+}
+
+/*PREMIERE DIV DE MON ARTICLE */
+.produit{
+    display: flex;
+    margin-left: 200px ;
+    margin-right: 200px;}
+
+/* PERMET DE METTRE UN FOND BLANC APRES LA DIV PRODUIT */
+.article{
+    background-color: white;
+    margin-left: -32px;
+    padding-right: 200px;
+    margin-top: 40px
+}
+
+/* PADDING DANS ARTICLE1 */
+.article1{
+    padding: 20px;
+}
+
+/* PETITTITRE */
+h3{
+    font-size: 35px;
+    line-height: 0.6em;
+}
+
+/* PREMIER MOT */
+.petittitre{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* DEUXIEME MOT */
+.petittitre1{
+    font-family: 'Parisienne', cursive; 
+    color:rgb(255, 8, 0);   
+}
+
+/* PARAGAPHE DE LA DIV ARTICLE */
+.article p{
+    text-align: justify;
+}
+
+/* QUATRIEME PAGE */
+
+/* COULEUR DU TITRE PRINCIPAL QUI CHANGE */
+.site3{
+    font-family: 'Parisienne', cursive; 
+    color:rgb(35,72,170);   
+}
+
+/* CINQUIEME PAGE */
+
+/* COULEUR DU TITRE PRINCIPAL QUI CHANGE */
+.site4{
+    font-family: 'Parisienne', cursive; 
+    color:rgb(110,50,176);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+/* ALIGNEMENT DE TOUT MES TEXTES */
+footer{
+    text-align: center;
+}
+
+/* TITRE CONSEIL */
+h2{
+    font-family: 'Parisienne', cursive;
+    color:rgb(255,140,0);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+/* TEL ET EMAIL */
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+/* LOGO RESEAUX SOCIAUX */
+.reseaux{
+    display: flex;
+    justify-content: center;
+}
+
+/* ECARTEMENT ENTRE LES DEUX LOGOS */
+.sociaux{
+    padding: 0.5rem;
+}
