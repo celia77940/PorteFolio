@@ -7,7 +7,6 @@ body{
 /*IMAGE DU FOND*/
 header{
     background-image: url(image/rul.jpg);
-    min-height: 100%;;
     background-size: cover;
 }
 
@@ -38,11 +37,10 @@ nav ul li a {
 /* TITRE */
 h1{
     text-align: center;
-    font-size: 92px;
+    font-size: 7em;
     line-height: 0.6em;
     text-shadow: 0em 0.05em 0.1rem rgba(0,0,0,0.4);
     padding-top: 200px;
-    padding-bottom: 280px;
 }
 
 /* BIENVENUE SUR MON/ POLICE COULEUR */
@@ -59,12 +57,25 @@ h1{
     color:rgb(255,140,0);   
 }
 
+.displays{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4em ;
+    padding-top: 2em;
+    margin-left: 5em;
+}
+
+.icone{
+    padding-right: 6em;
+}
+
 /* PREMIERE PAGE */
 
 /* DISPLAY DES TROIS BLOCS */
 .display{
     display: flex;
     justify-content: space-around;
+    margin-top: 5em;
 }
 
 /*BORDURE DES CARD */
@@ -120,70 +131,147 @@ h1{
     color:rgb(223, 238, 22);   
 }
 
-.experience{
-    background-image: url(image/barre.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+.profesionelle{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1.5em;
+    margin-top: 2em;
 }
-
 .rectangle{
-    display:flex;
-    margin-left: 300px;
-    margin-right: 300px;
+    background-color: rgb(252, 255, 248);
+    width: 32.5em;
+    border-top: 8mm ridge rgb(223, 238, 22, .6);
+    box-shadow: 10px 5px 5px rgb(228, 224, 224);
+    
 }
 
-.etude{
-    text-align: right;
+.petititre0{
+    text-align: center;
 }
 
-.date{
-    text-decoration: underline;
-    color: rgb(110, 50, 176);
+.placement{
+    padding: 2em;
 }
-
 
 .date p{
     font-family: 'Parisienne', cursive;
-    font-size: 1.6em; 
-    color: rgb(110, 50, 176);}
-
-.forma{
-    font-size: 1.2em;
-    color: rgb(210, 70, 24);
+    color: rgb(232, 232, 22);
+    font-size: 1.3rem;
 }
 
-.format{
-    font-size: 1,1em;
-}
-
-.resume{
+.diplome{
     font-size: 1rem;
 }
 
-.logo{
-    padding-left: 3.7em;
+.span{
+    font-family: 'Parisienne', cursive;
 }
 
-.logo1{
-    padding-left: 37.5em;
-    padding-right: 3em;;
+.gras {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0.5em;
 }
 
-.date1 p{
+.progress{
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.progress-bar{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(223, 232, 24);
+    transition: width .6s ease;
+}
+
+.progress-bar-striped{
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 1rem 1rem;
+}
+
+.progress-bar-animated {
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+    }
+
+@-webkit-keyframes progress-bar-stripes {
+    from {
+    background-position: 1rem 0;
+    }
+    to {
+    background-position: 0 0;
+    }
+    }
+
+.choisir{
+    display: flex;
+    margin-left: 17em;
+    margin-top: 5em;
+    margin-right: 5em;
+}
+
+.crea{
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 2em;
+}
+
+.moi{
+    text-align: justify;
+}
+
+.pourquoi{
+    margin-right: 10em;
+    
+}
+
+.petititre4{
+    text-align: center;
+    margin-top: 5em;
+}
+
+.petittitre5{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.petittitre6{
+    font-size: 1.5em;
     font-family: 'Parisienne', cursive; 
-    color: rgb(110, 50, 176);}
+    color:rgb(255, 8, 0);  
+}
 
+.conseil{
+    display: flex;
+    justify-content: center;
+    margin: 4em;
+}
 
-
-
-
-
-
-
-
-
-
-
+.tel{
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
 
 
 
@@ -227,7 +315,8 @@ h1{
 .produit{
     display: flex;
     margin-left: 200px ;
-    margin-right: 200px;}
+    margin-right: 200px;
+    margin-top: 2em}
 
 /* PERMET DE METTRE UN FOND BLANC APRES LA DIV PRODUIT */
 .article{
@@ -256,14 +345,37 @@ h3{
 
 /* DEUXIEME MOT */
 .petittitre1{
-    font-family: 'Parisienne', cursive; 
-    color:rgb(255, 8, 0);   
+    font-family: 'Parisienne', cursive;  
 }
 
 /* PARAGAPHE DE LA DIV ARTICLE */
 .article p{
     text-align: justify;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* QUATRIEME PAGE */
 
