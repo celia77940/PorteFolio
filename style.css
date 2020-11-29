@@ -12,11 +12,8 @@ header{
 
 /* PERMET DE METTRE TOUT LES MOTS A COTER ET CENTRER */
 nav ul {
-    margin: 0%;
-    display: flex;
-    padding-top: 3.5em;
-    justify-content: center; 
-}
+    margin-left: 17%;
+    padding-top: 3.5em;}
 
 /* MENU*/
 nav ul li {
@@ -41,6 +38,7 @@ h1{
     line-height: 0.6em;
     text-shadow: 0em 0.05em 0.1rem rgba(0,0,0,0.4);
     padding-top: 200px;
+    
 }
 
 /* BIENVENUE SUR MON/ POLICE COULEUR */
@@ -61,7 +59,7 @@ h1{
 .displays{
     display: flex;
     justify-content: center;
-    padding-bottom: 4em ;
+    padding-bottom: 11em ;
     padding-top: 2em;
     margin-left: 5em;
 }
@@ -70,6 +68,28 @@ h1{
 .icone{
     padding-right: 6em;
 }
+
+@media (max-width: 1081px){
+    h1{
+        font-size: 1.5em;
+        padding-top : 2em
+    }
+
+    .displays{
+        padding-bottom: 2em;
+        padding-top: 0em;
+        margin-left: 0em;
+    }
+    .icone img{
+        width: 40px;}
+
+    .icone{
+        padding-right: 0.5em;
+    }
+    
+
+}
+
 
 /* PREMIERE PAGE */
 
@@ -124,6 +144,34 @@ h1{
     color:rgb(110,50,176);
     font-size: 2rem;
     font-weight: 800;}
+
+@media (max-width: 1081px){
+        .display{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;   
+        }
+
+        .card{
+            width: 12.6em;
+            margin-bottom: 2em;
+        }
+
+        .card img{
+            height: 10em;
+        }
+
+        .theme1{
+            font-size : 1em
+        }
+        .theme2{
+            font-size : 1em
+        }
+        .theme3{
+            font-size : 1em
+        }
+    
+    }
 
 /* DEUXIEME PAGE */
 
@@ -300,6 +348,58 @@ h1{
     text-transform: uppercase;
 }
 
+@media (max-width: 1081px){
+    .profesionelle{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0em
+    }
+
+    .rectangle{
+        width: 20em;
+        margin-bottom: 2rem
+    }
+
+    .choisir{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .pourquoi{
+        margin-right: 0em;
+    }
+
+    .crea{
+        margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    }
+
+    .crea img {
+        display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+
+    .moi{
+        width: 15em;
+    }
+
+    .conseil img {
+        height: 2em;
+        width: 2em;
+    }
+
+    .button{
+        padding : 0.5rem
+    }
+
+  
+}
+
 /* TROISIEME PAGE */
 
 /* COULEUR DU TITRE PRINCIPAL QUI CHANGE */
@@ -351,6 +451,30 @@ h3{
     text-align: justify;
 }
 
+@media (max-width: 1081px){
+    .produit{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .produit img{
+        height: 15em;
+    }
+
+    .article{
+        margin-left: 0em;
+        padding-right: 0em;
+        margin-top: -5px;
+        width: 15em;
+    }
+
+    h3{
+        font-size: 1em}
+
+}
 /* QUATRIEME PAGE */
 
 /* COULEUR DU TITRE PRINCIPAL QUI CHANGE */
@@ -398,4 +522,20 @@ p{
 /* ECARTEMENT ENTRE LES DEUX LOGOS */
 .sociaux{
     padding: 0.5rem;
+}
+
+@media (max-width: 1081px){
+    h2{
+        font-size : 20px
+    }
+
+    p{
+        font-size : 10px
+    }
+
+    .sociaux img{
+        height: 1.5em;
+    }
+
+
 }
