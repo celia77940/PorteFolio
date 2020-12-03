@@ -6,7 +6,7 @@ body{
 
 /*IMAGE DU FOND*/
 header{
-    background-image: url(image/rul.jpg);
+    background-image:linear-gradient(to left, rgba(0,0,0,.6), rgba(0,0,0,.6)), url(image/rul.jpg);
     background-size: cover;
 }
 
@@ -46,6 +46,7 @@ h1{
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    font-weight: 600;
     
 }
 
@@ -432,6 +433,7 @@ h1{
 h3{
     font-size: 35px;
     line-height: 0.6em;
+    margin-bottom: 0.5em
 }
 
 /* PREMIER MOT */
@@ -496,6 +498,7 @@ h3{
 /* ALIGNEMENT DE TOUT MES TEXTES */
 footer{
     text-align: center;
+    padding-top: 2em ;
 }
 
 /* TITRE CONSEIL */
